@@ -1,0 +1,102 @@
+body {
+  margin: 0;
+  background-color: lightblue;
+}
+.container {
+  width: 80%;
+  margin: 20px auto;
+  background-color: white;
+  padding: 20px;
+}
+.img img {
+  width: 150px;
+  height: auto;
+}
+.header {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #1346ac;
+}
+.about h2 {
+  color: #61759b;
+}
+.img {
+  float: left;
+  margin-right: 20px;
+}
+
+.experience {
+  clear: both;
+  padding-top: 20px;
+}
+
+.skills h3 {
+  background-color: #61759b;
+  padding: 5px;
+}
+
+.experience h2 {
+  color: #61759b;
+}
+
+.experience table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.experience table,
+.experience th,
+.experience td {
+  border: 1px solid black;
+}
+
+.experience th,
+.experience td {
+  padding: 10px;
+}
+
+.experience th {
+  background-color: #61759b;
+  color: white;
+}
+
+.contactme h2 {
+  color: #61759b;
+}
+.contactme p {
+  margin-bottom: 25px;
+}
+
+.contactme fieldset {
+  padding: 15px;
+  margin-bottom: 20px;
+}
+.personalleft {
+  float: left;
+  width: 45%;
+  margin-right: 5%;
+}
+.personalright {
+  float: right;
+  width: 45%;
+}
+.clear {
+  clear: both;
+}
+
+.projectdleft {
+  float: left;
+  width: 45%;
+  margin-right: 5%;
+}
+.projectdright {
+  float: right;
+  width: 45%;
+}
+.contactme button {
+  background-color: #61759b;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}

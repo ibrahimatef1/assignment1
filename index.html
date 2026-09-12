@@ -1,0 +1,205 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <h1>Ibrahim Atef Portfolio</h1>
+        <p>Web Technical Support</p>
+      </div>
+      <div class="aboutme">
+        <div class="about">
+          <h2>About me</h2>
+        </div>
+        <div class="img">
+          <img
+            alt="Personal Photo"
+            src="Image/WhatsApp Image 2025-10-25 at 18.21.35_3ae5695b.jpg"
+          />
+        </div>
+
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam amet
+          laudantium vitae libero, quisquam voluptates alias, modi corporis,
+          expedita velit illo id voluptas neque cumque!
+        </p>
+        <div class="skills">
+          <h3>Skills:</h3>
+          <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+          </ul>
+        </div>
+      </div>
+      <div class="experience">
+        <h2>Experience Timeline</h2>
+        <p>Professional Experience Overview</p>
+
+        <table>
+          <thead>
+            <tr>
+              <th>Company</th>
+              <th>Position</th>
+              <th>Year</th>
+              <th>Key Achievements</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Mora Company</td>
+              <td>Technical Support</td>
+              <td>2022 - Present</td>
+              <td>
+                <ul>
+                  <li>Lorem ipsum dolor sit.</li>
+                  <li>Lorem ipsum dolor sit amet.</li>
+                  <li>Lorem, ipsum dolor.</li>
+                </ul>
+              </td>
+            </tr>
+            <tr>
+              <td>Qyadat Company</td>
+              <td>Technical Support</td>
+              <td>2013 - 2022</td>
+              <td>
+                <ul>
+                  <li>Lorem ipsum dolor sit.</li>
+                  <li>Lorem ipsum dolor sit amet.</li>
+                  <li>Lorem, ipsum dolor.</li>
+                </ul>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="contactme">
+        <h2>Contact Me</h2>
+        <p>Feel Free Lorem ipsum dolor sit amet consectetur.</p>
+
+        <form>
+          <fieldset>
+            <legend>Personal Information.</legend>
+            <div class="personalleft">
+              <label for="username">Name *</label>
+              <input id="username" type="text" name="username" required />
+              <br />
+
+              <label for="email">Email *</label>
+              <input id="email" type="email" name="email" required />
+              <br />
+
+              <label for="mdate">Preferred Meeting Date</label>
+              <input id="mdate" type="date" name="mdate" />
+            </div>
+            <div class="personalright">
+              <label for="phone">Phone Number</label>
+              <input id="phone" type="tel" name="phone" />
+              <br />
+              <label for="besttime">Best Time to Contact</label>
+              <input id="besttime" type="time" name="besttime" />
+            </div>
+            <div class="clear"></div>
+          </fieldset>
+
+          <fieldset>
+            <legend>Project Details</legend>
+            <div class="projectdleft">
+              <label for="project">Project Type *</label>
+              <input id="project" type="text" name="project" required />
+              <br />
+
+              <p>Budget Range:</p>
+              <input
+                id="Budget"
+                type="radio"
+                name="Budget"
+                value="Under 5000$"
+              />
+              <label for="Budget">Under 5000$</label>
+              <br />
+              <input
+                id="Budget2"
+                type="radio"
+                name="Budget"
+                value="5001$ - 10000$"
+              />
+              <label for="Budget2">5001$ - 10000$</label>
+              <br />
+              <input
+                id="Budget3"
+                type="radio"
+                name="Budget"
+                value="10001$ - 20000$"
+              />
+              <label for="Budget3">10001$ - 20000$</label>
+              <br />
+              <input
+                id="Budget4"
+                type="radio"
+                name="Budget"
+                value="20001$ - 50000$"
+              />
+              <label for="Budget4">20001$ - 50000$</label>
+            </div>
+
+            <div class="projectdright">
+              <label for="Description">Project Description *</label>
+              <textarea id="Description" name="Description" required></textarea>
+              <p>Services Required(check all that apply):</p>
+              <input
+                id="services"
+                type="checkbox"
+                name="services"
+                value="UI/UX Design"
+              />
+              <label for="services">UI/UX Design</label>
+              <br />
+              <input
+                id="services2"
+                type="checkbox"
+                name="services"
+                value="Frontend Development"
+              />
+              <label for="services2">Frontend Development</label>
+              <br />
+              <input
+                id="services3"
+                type="checkbox"
+                name="services"
+                value="Backend Development"
+              />
+              <label for="services3">Backend Development</label>
+              <br />
+              <input
+                id="services4"
+                type="checkbox"
+                name="services"
+                value="Maintenance & Support"
+              />
+              <label for="services4">Maintenance & Support</label>
+            </div>
+            <div class="clear"></div>
+            <div class="hearaboutme">
+              <label for="hearaboutme">How did you hear about me?</label>
+              <select id="hearaboutme" name="hearaboutme">
+                <option value="">--select source--</option>
+                <option value="Google">Google</option>
+                <option value="Social Media">Social Media</option>
+                <option value="Friend">Friend</option>
+                <option value="Other">Other</option>
+              </select>
+            </div>
+          </fieldset>
+          <button type="submit">Submit</button>
+          <button type="reset">Clear Form</button>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
